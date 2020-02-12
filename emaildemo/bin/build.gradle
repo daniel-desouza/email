@@ -14,12 +14,11 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-mail'
-	
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
   implementation 'org.springframework.boot:spring-boot-starter-web'
+  compile group: 'org.springframework', name: 'spring-context-support', version: '4.3.5.RELEASE'
   
   compile group: 'org.springframework.boot', name: 'spring-boot-starter-velocity', version: '1.4.7.RELEASE'
-  compile group: 'org.springframework', name: 'spring-context-support', version: '4.3.5.RELEASE'
   compile group: 'org.springframework', name: 'spring-context', version: '5.2.3.RELEASE'
   compile group: 'org.apache.velocity', name: 'velocity-tools', version: '2.0'
   
